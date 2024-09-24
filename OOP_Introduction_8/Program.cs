@@ -49,7 +49,7 @@ namespace OOP_Introduction
         static Person ModifyObjectArgument(Person x)
         {
             x.lastName = "Dane";
-            return x;
+            return x; // abcd
         }
     }
 } //end of prog
