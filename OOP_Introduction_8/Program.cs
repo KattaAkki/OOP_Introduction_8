@@ -10,7 +10,7 @@ namespace OOP_Introduction
             // initial access attempt
             Person Student = new Person
             {
-                firstName = "John",
+                firstName = "Akshitha",
                 lastName = "Doe"
             };
             // Console.WriteLine("Hi");
@@ -19,7 +19,7 @@ namespace OOP_Introduction
             Debug.WriteLine(Student.firstName);
 
             // using the constructor
-            Person Teacher = new Person();
+            Person Teacher = new Person(); // add new name
             Person Manager = new Person("Jane");
 
             // passing by value
